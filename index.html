@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="images/icons/android-launchericon-72-72.png">
+    <link rel="apple-touch-icon" href="images/icons/android-launchericon-96-96.png">
+    <link rel="apple-touch-icon" href="images/icons/android-launchericon-144-144.png">
+    <link rel="apple-touch-icon" href="images/icons/android-launchericon-192-192.png">
+    <link rel="apple-touch-icon" href="images/icons/android-launchericon-512-512.png">
+    <meta name="theme-color" content="#0D1117">
+    <title>Music Player</title>
+</head>
+<body>
+    <div class="main">
+        <div class="audio_container" id="audio_container">
+            <h4 class="music_name" id="music_name"></h4>
+            <audio src="" id="music"></audio>
+            <div class="img_container">
+                <img class="music_img" id="music_img" src="./images/ISLOM_TAGAYEV.jpg"  alt="music_img">
+            </div>
+            <div id="progress_bar">
+                <div id="progress" class="progress"></div>
+            </div>
+            <div class="navbar">
+                <button id="prev_btn" class="btn">
+                    <i class="fas fa-backward"></i>
+                </button>
+                <button id="play_btn" class="btn">
+                    <i class="fas fa-play"></i>
+                </button>
+                <button id="next_btn" class="btn">
+                    <i class="fas fa-forward"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+  <script src="./js/main.js"></script>  
+</body>
+</html>
